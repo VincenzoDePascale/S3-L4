@@ -22,6 +22,10 @@ article {
   display: inline-block;
 }
 
+#resul:hover {
+  cursor: pointer;
+}
+
 .insert {
   border: rgb(252, 252, 252) solid 2px;
   border-radius: 10px;
@@ -43,4 +47,11 @@ textarea {
   border: rgb(0, 0, 0) solid 2px;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
+}
+
+.oggettoSelezionato {
+  background-color: brown;
+  box-shadow: 0 12px 24px -8px rgb(0 0 0 / 20%);
+  border-color: yellow;
+  transform: scale(1.5);
 }
