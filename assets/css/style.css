@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background: rgb(242, 5, 237);
+  background: linear-gradient(
+    172deg,
+    rgba(242, 5, 237, 1) 0%,
+    rgba(120, 9, 121, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+h1 {
+  color: rgba(0, 212, 255, 1);
+}
+
+article {
+  border: rgb(252, 252, 252) solid 2px;
+  background-color: rgb(34, 125, 206);
+  border-radius: 10px;
+  padding: 2em;
+  max-width: 50%;
+  display: inline-block;
+}
+
+.insert {
+  border: rgb(252, 252, 252) solid 2px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 0.25em;
+}
+
+textarea {
+  border: none;
+  background-color: lightgray;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.listItems {
+  margin-top: 1em;
+  padding: 0.5em;
+  text-align: center;
+  border: rgb(0, 0, 0) solid 2px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
